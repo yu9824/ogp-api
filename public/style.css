@@ -1,13 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container .content {
+  width: 1050px;
+  max-width: 100%;
+}
+
+.content .page-title {
+  text-align: center;
+}
+
+.content form {
+  text-align: center;
+}
+
 #ogp-api {
   width: 70%;
   overflow-x: scroll;
   overflow-y: none;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
 }
 
 .svg {
@@ -35,9 +47,6 @@
   }
   .github-corner .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
-  }
-  .container {
-    margin: 19%;
   }
   .svg {
     right: -33%;

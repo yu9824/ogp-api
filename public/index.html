@@ -34,11 +34,15 @@
                 </path>
                 </svg>
             </a>
-            <h1 class="center">OGP情報取得API</h1>
+        </div>
+        <div class="content">
+            <h1 class="page-title">OGP情報取得API</h1>
             <form onsubmit="get_ogp()">
-                <input type="text" id="ogp-api" placeholder="Get OGP">
+                <input type="url" name="url" id="ogp-api" placeholder="https://example.com" pattern="https://.*" required>
                 <input type="submit" name="sa" value="Go">
             </form>
+        </div>
+    </div>
 </body>
 
 </html>
