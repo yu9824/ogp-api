@@ -1,3 +1,9 @@
+#ogp-api {
+  width: 70%;
+  overflow-x: scroll;
+  overflow-y: none;
+}
+
 .container {
     display: flex;
     justify-content: center;
